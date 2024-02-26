@@ -1,0 +1,276 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: #076E1A;
+}
+
+#container {
+    background-color: #8AD6CE;
+    padding: 20px;
+    border: 10px solid #033B66;
+    border-radius: 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, p {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h3, h4 {
+    color: #531C0C
+}
+
+main p {
+    font-weight: 600;
+    color: #186A3B;
+}
+
+
+a {
+    color: #0A4B16;
+}
+
+a:hover {
+    color: #101E65;
+    text-decoration: none;
+}
+
+hr {
+    width: 95%;
+    height: 3px;
+    background-color: #0A4B16;
+    border: 1px solid #31191D;
+}
+
+/* Mobile Styles */
+
+nav {
+    background-color: #31191D;
+    padding: 3px 0;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #B2D8DF;
+    background-color: #0A4B16;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+}
+
+nav li a:hover {
+    background-color: #101E65;
+    color: #B2D8DF;
+}
+
+header {
+    font-size: 20px;
+    color: #126624;
+    text-shadow: 1px 1px 1px #531C0C;
+}
+
+header h1 {
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+main h2, h3, p {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#lower {
+    border: 4px solid #531C0C;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #31191D;
+}
+
+.col {
+    border: 4px solid #0A4B16;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #2EA2AF;
+}
+
+.col ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.button {
+    display: block;
+    background-color: #2315C9;
+    margin: 10px auto;
+    width: 115px;
+    height: 40px;
+    color: #B2D8DF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    border: 5px solid #0A4B16;
+    border-radius: 10px;
+    font-weight: bold;   
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+}
+
+.button:hover {
+    color:#B2D8DF;
+}
+
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+#fairy {
+    display: flex;
+}
+
+.fairies img {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.lep img {
+    width: 70%;
+    background-color: #126624;
+    padding: 12px;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 300px;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+    .fairies img {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    #lower {
+        width: 85%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .col {
+        margin: 20px;
+        padding: 5px;
+    }
+
+    .col img{
+        width: 65%;
+    }
+
+    #container {
+        width: 85%;
+    }
+
+    #lower {
+        padding: 5px;
+    }
+
+    .lep img {
+        width: 40%;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    header {
+        font-size: 30px;
+    }
+
+    header h1 {
+        font-size: 90px;
+    }
+
+    .fairies img {
+        width: 70%;
+        margin: 15px auto;
+    }
+
+    main img {
+        width: 40%;
+        padding: 25px 0;
+        margin: auto;
+    }
+
+    #lower {
+        width: 95%;
+        display: flex;
+    }
+
+    .col {
+        padding: 10px;
+        margin: 10px;
+        border: 4px solid #0A4B16;
+        width: 33.33%;
+        border-radius: 30px;
+    }
+
+    .lep img {
+        width: 30%;
+    }
+
+   
+    
+}
